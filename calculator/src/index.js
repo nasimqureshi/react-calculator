@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import add from './Calc';
+import App from './App.jsx';
+
 
 
 ReactDOM.render(
-  <>
-    <ul>
-      <li>The sum of two numbers is {add(40, 4)}</li>
-    </ul>
-  </>,
+  <App />,
    document.getElementById('root')
 );
 
